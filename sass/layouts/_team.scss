@@ -10,7 +10,7 @@
     display: flex;
 }
 
-.team-list .item+.item {
+.team-list .item +.item {
     margin-left: 30px;
 }
 
@@ -34,6 +34,10 @@
     background-color: var(--primary-white-color);
     border-radius: 50%;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    &:focus {
+        background-color: var(--accent-color);
+    }
 }
 
 .social-item .icon {
@@ -43,11 +47,6 @@
 .social-item:hover .icon,
 .social-item:focus .icon {
     fill: var(--primary-white-color);
-}
-
-.social-item:hover,
-.social-item:focus {
-    background-color: var(--accent-color);
 }
 
 .team {
