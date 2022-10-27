@@ -13,7 +13,7 @@
         url(../images/Img001.jpg);
 }
 
-.hero-title {
+.hero-main__title {
     max-width: 696px;
     margin-right: auto;
     margin-left: auto;
@@ -27,7 +27,7 @@
     text-transform: uppercase;
 }
 
-.button-primary {
+.hero-main__btn {
     display: inline-block;
     color: var(--primary-white-color);
     background-color: var(--accent-color);
