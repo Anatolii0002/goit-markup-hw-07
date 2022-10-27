@@ -38,15 +38,15 @@
     &:focus {
         background-color: var(--accent-color);
     }
+        
+    &:hover .icon,  
+    &:focus .icon {
+        fill: var(--primary-white-color);
+    }
 }
 
 .social-item .icon {
     fill: var(--icons-color)
-}
-
-.social-item:hover .icon,
-.social-item:focus .icon {
-    fill: var(--primary-white-color);
 }
 
 .team {

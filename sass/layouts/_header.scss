@@ -8,14 +8,21 @@
     align-items: center;
 }
 
-.nav-link,
 .contact-link {
     display: flex;
     align-items: center;
+    & li:not(:first-child) {
+        margin-left: 50px;
+    }
 }
 
 .nav-link {
+    display: flex;
+    align-items: center;
     margin-left: 93px;
+    & li:not(:first-child) {
+        margin-left: 50px;
+    }
 }
 
 .logo {
@@ -30,11 +37,6 @@
 
 .studio {
     color: var(--primary-text-color);
-}
-
-.nav-link li:not(:first-child),
-.contact-link li:not(:first-child) {
-    margin-left: 50px;
 }
 
 .nav-link .link {
